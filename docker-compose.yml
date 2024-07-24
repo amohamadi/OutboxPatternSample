@@ -1,0 +1,6 @@
+﻿services:
+  orderapi:
+    image: orderapi
+    build:
+      context: .
+      dockerfile: OrderApi/Dockerfile
